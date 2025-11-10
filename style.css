@@ -1,0 +1,61 @@
+
+nav ul {
+    
+list-style: none;
+padding: 34px;
+display:flex;
+justify-content:center;
+border-radius: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-image: url(https://www.exoticca.com/_next/image?url=https:%2F%2Fstatic-us.exoticca.com%2Fimg%2Fp%2F17407%2F358872.jpg&w=1200&q=75);
+background-size: cover;
+background-position: center;
+border: 3px solid rgba(0, 0, 0, 0.976);
+
+}
+nav ul li a{
+    display: block;
+    padding: 100px;
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-size: 40px;
+text-align: center;
+
+border-radius: 10px;
+}
+nav a:hover{
+
+ text-decoration:underline;
+
+}
+section ul li{
+    font-size: 20px;
+}
+p {
+    font-size: 30px;
+    background-color: antiquewhite;
+    text-justify: center;
+}
+h2 {
+    font-size: 40px;
+}
+h1{
+    position:relative;
+    left:550px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+img{
+    border-radius: 5%;
+}
+iframe {
+    border-radius: 5%;
+}
+
+#preloader{
+ background: #000 url(preloader.gif) no-repeat fixed center;
+ height: 100%;
+ width: 100%;
+ position: fixed;
+ z-index: 100;
+}
